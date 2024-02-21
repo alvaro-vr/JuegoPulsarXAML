@@ -1,0 +1,31 @@
+﻿<Window x:Class="JuegoPulsarAlvaro.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JuegoPulsarAlvaro"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+        <Menu HorizontalAlignment="Stretch" Height="20" VerticalAlignment="Top">
+            <MenuItem Header="Velocidad">
+                <MenuItem Name="Lenta" Header="Lenta" Click="Lenta_Click"/>
+                <MenuItem Name="Media" Header="Media" Click="Media_Click"/>
+                <MenuItem Name="Rapida" Header="Rápida" Click="Rapida_Click"/>
+            </MenuItem>
+            </Menu>
+
+
+        <Canvas Width="400" Height="400" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="Boton1" Width="100" Height="100" Canvas.Left="60" Canvas.Top="30" Background="#800000FF" Opacity="0.7"/>
+            <Button x:Name="Boton2" Width="100" Height="100" Canvas.Right="10" Canvas.Top="162" Background="#800000FF" Opacity="0.7"/>
+            <Button x:Name="Boton3" Width="100" Height="100" Canvas.Right="60" Canvas.Top="30" Background="#800000FF" Opacity="0.7"/>
+            <Button x:Name="Boton4" Width="100" Height="100" Canvas.Left="60" Canvas.Top="290" Background="#800000FF" Opacity="0.7"/>
+            <Button x:Name="Boton5" Width="100" Height="100" Canvas.Left="10" Canvas.Top="162" Background="#800000FF" Opacity="0.7"/>
+            <Button x:Name="Boton6" Width="100" Height="100" Canvas.Right="60" Canvas.Top="290" Background="#800000FF" Opacity="0.7"/>
+        </Canvas>
+
+    </Grid>
+
+</Window>

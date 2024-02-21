@@ -1,0 +1,15 @@
+C:\Users\Administrador\source\repos\JuegoPulsarAlvaro\JuegoPulsarAlvaro\obj\Debug\JuegoPulsarAlvaro.csproj.AssemblyReference.cache
+C:\Users\Administrador\source\repos\JuegoPulsarAlvaro\JuegoPulsarAlvaro\obj\Debug\App.g.cs
+C:\Users\Administrador\source\repos\JuegoPulsarAlvaro\JuegoPulsarAlvaro\obj\Debug\JuegoPulsarAlvaro_MarkupCompile.cache
+C:\Users\Administrador\source\repos\JuegoPulsarAlvaro\JuegoPulsarAlvaro\bin\Debug\JuegoPulsarAlvaro.exe.config
+C:\Users\Administrador\source\repos\JuegoPulsarAlvaro\JuegoPulsarAlvaro\bin\Debug\JuegoPulsarAlvaro.exe
+C:\Users\Administrador\source\repos\JuegoPulsarAlvaro\JuegoPulsarAlvaro\bin\Debug\JuegoPulsarAlvaro.pdb
+C:\Users\Administrador\source\repos\JuegoPulsarAlvaro\JuegoPulsarAlvaro\obj\Debug\MainWindow.g.cs
+C:\Users\Administrador\source\repos\JuegoPulsarAlvaro\JuegoPulsarAlvaro\obj\Debug\JuegoPulsarAlvaro_MarkupCompile.lref
+C:\Users\Administrador\source\repos\JuegoPulsarAlvaro\JuegoPulsarAlvaro\obj\Debug\MainWindow.baml
+C:\Users\Administrador\source\repos\JuegoPulsarAlvaro\JuegoPulsarAlvaro\obj\Debug\JuegoPulsarAlvaro.g.resources
+C:\Users\Administrador\source\repos\JuegoPulsarAlvaro\JuegoPulsarAlvaro\obj\Debug\JuegoPulsarAlvaro.Properties.Resources.resources
+C:\Users\Administrador\source\repos\JuegoPulsarAlvaro\JuegoPulsarAlvaro\obj\Debug\JuegoPulsarAlvaro.csproj.GenerateResource.cache
+C:\Users\Administrador\source\repos\JuegoPulsarAlvaro\JuegoPulsarAlvaro\obj\Debug\JuegoPulsarAlvaro.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\JuegoPulsarAlvaro\JuegoPulsarAlvaro\obj\Debug\JuegoPulsarAlvaro.exe
+C:\Users\Administrador\source\repos\JuegoPulsarAlvaro\JuegoPulsarAlvaro\obj\Debug\JuegoPulsarAlvaro.pdb
