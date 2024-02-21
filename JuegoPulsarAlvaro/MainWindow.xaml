@@ -18,12 +18,103 @@
 
 
         <Canvas Width="400" Height="400" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button x:Name="Boton1" Width="100" Height="100" Canvas.Left="60" Canvas.Top="30" Background="#800000FF" Opacity="0.7"/>
-            <Button x:Name="Boton2" Width="100" Height="100" Canvas.Right="10" Canvas.Top="162" Background="#800000FF" Opacity="0.7"/>
-            <Button x:Name="Boton3" Width="100" Height="100" Canvas.Right="60" Canvas.Top="30" Background="#800000FF" Opacity="0.7"/>
-            <Button x:Name="Boton4" Width="100" Height="100" Canvas.Left="60" Canvas.Top="290" Background="#800000FF" Opacity="0.7"/>
-            <Button x:Name="Boton5" Width="100" Height="100" Canvas.Left="10" Canvas.Top="162" Background="#800000FF" Opacity="0.7"/>
-            <Button x:Name="Boton6" Width="100" Height="100" Canvas.Right="60" Canvas.Top="290" Background="#800000FF" Opacity="0.7"/>
+            <Button x:Name="Boton1" Width="100" Height="100" Canvas.Left="60" Canvas.Top="30" Background="#800000FF" Opacity="0.5" Click="Boton_Click">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="OverridesDefaultStyle" Value="True"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Padding="{TemplateBinding Padding}">
+                                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Button x:Name="Boton2" Width="100" Height="100" Canvas.Right="10" Canvas.Top="162" Background="#800000FF" Opacity="0.5" Click="Boton_Click">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="OverridesDefaultStyle" Value="True"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Padding="{TemplateBinding Padding}">
+                                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Button x:Name="Boton3" Width="100" Height="100" Canvas.Right="60" Canvas.Top="30" Background="#800000FF" Opacity="0.5" Click="Boton_Click">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="OverridesDefaultStyle" Value="True"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Padding="{TemplateBinding Padding}">
+                                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Button x:Name="Boton4" Width="100" Height="100" Canvas.Left="60" Canvas.Top="290" Background="#800000FF" Opacity="0.5" Click="Boton_Click">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="OverridesDefaultStyle" Value="True"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Padding="{TemplateBinding Padding}">
+                                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Button x:Name="Boton5" Width="100" Height="100" Canvas.Left="10" Canvas.Top="162" Background="#800000FF" Opacity="0.5" Click="Boton_Click">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="OverridesDefaultStyle" Value="True"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Padding="{TemplateBinding Padding}">
+                                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Button x:Name="Boton6" Width="100" Height="100" Canvas.Right="60" Canvas.Top="290" Background="#800000FF" Opacity="0.5" Click="Boton_Click">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="OverridesDefaultStyle" Value="True"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Padding="{TemplateBinding Padding}">
+                                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+            
         </Canvas>
 
     </Grid>
